@@ -1,0 +1,20 @@
+{
+  "name": "youtube-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch latest Youtube videos and serve via paginated APIs",
+  "main": "src/server.js",
+  "type":"module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "Syed Ibrahim ALi",
+  "license": "ISC",
+  "packageManager": "pnpm@10.24.0",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
+  }
+}
