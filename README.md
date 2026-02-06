@@ -147,3 +147,14 @@ To verify the server is working correctly without the frontend:
    curl http://localhost:5000/api/videos
    ```
    You should receive a JSON response with a `data` array containing video objects.
+
+## 🌐 Live Demo
+
+You can see the project working live here:
+
+👉 **https://youtube.ibbu.in**
+
+This demo showcases:
+- Automatic background fetching of YouTube videos
+- Search and pagination in real-time
+- Fully responsive React dashboard
